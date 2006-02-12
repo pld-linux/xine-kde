@@ -1,13 +1,13 @@
-# TODO: Add pl to desktop file.
+# TODO:		Add pl to desktop file.
 Summary:	KDE xine DVD integration
 Summary(pl):	Integracja xine DVD z KDE
 Name:		xine-kde
 Version:	1.0
 Release:	1
 License:	GPL
-Group:		KDE
+Group:		X11/Applications
 # Source0:	http://kde-apps.org/content/download.php?content=34926&id=1
-Source0:	http://kde-apps.org/content/files/34926-kde_media_video_dvd-1.0.tar.bz2
+Source0:	http://kde-apps.org/content/files/34926-kde_media_video_dvd-%{version}.tar.bz2
 # Source0-md5:	b1ede2013bc0a161d698ed27cf8fbc4c
 URL:		http://kde-apps.org/content/show.php?content=34926
 Requires:	kdebase-desktop
@@ -20,9 +20,9 @@ A little servicetype which lets to video dvds automatically in Xine.
 Includes a script to translate a media:/ url into a device using dcop.
 
 %description -l pl
-Ma造 dodatek servicetype kt鏎y pozwala na automatyczne odtwarzanie 
-w這穎nej do czytnika p造ty DVD w programie Xine.
-Zawiera skrypt t逝macz帷y url media:/  na urz康zenie przy pomocy dcop. 
+Ma造 dodatek servicetype kt鏎y pozwala na automatyczne odtwarzanie
+w這穎nej do czytnika p造ty DVD w programie Xine. Zawiera skrypt
+t逝macz帷y url media:/ na urz康zenie przy pomocy dcop.
 
 %prep
 %setup -q -n kde_media_video_dvd-%{version}
