@@ -17,12 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A little servicetype which lets to video dvds automatically in Xine.
-Includes a script to translate a media:/ url into a device using dcop.
+Includes a script to translate a media:/ URL into a device using dcop.
 
 %description -l pl
-Ma³y dodatek servicetype który pozwala na automatyczne odtwarzanie
+Ma³y dodatek servicetype, który pozwala na automatyczne odtwarzanie
 w³o¿onej do czytnika p³yty DVD w programie Xine. Zawiera skrypt
-t³umacz±cy url media:/ na urz±dzenie przy pomocy dcop.
+t³umacz±cy URL media:/ na urz±dzenie przy pomocy dcop.
 
 %prep
 %setup -q -n kde_media_video_dvd-%{version}
@@ -32,8 +32,8 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_bindir}
 install kde_media_url_to_device.sh $RPM_BUILD_ROOT%{_bindir}
-install -d $RPM_BUILD_ROOT%{_datadir}/apps/konqueror/servicemenus/
-install Play_Video_DVD_in_Xine.desktop $RPM_BUILD_ROOT%{_datadir}/apps/konqueror/servicemenus/
+install -d $RPM_BUILD_ROOT%{_datadir}/apps/konqueror/servicemenus
+install Play_Video_DVD_in_Xine.desktop $RPM_BUILD_ROOT%{_datadir}/apps/konqueror/servicemenus
 
 %clean
 rm -rf $RPM_BUILD_ROOT
