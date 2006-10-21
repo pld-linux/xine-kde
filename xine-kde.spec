@@ -12,6 +12,7 @@ URL:		http://kde-apps.org/content/show.php?content=34926
 Patch0:		%{name}-desktop.patch
 Requires:	kdebase-desktop
 Requires:	xine-input-dvd
+Requires:	xine-ui
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
