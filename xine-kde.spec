@@ -1,15 +1,15 @@
-# TODO:		Add pl to desktop file.
 Summary:	KDE xine DVD integration
 Summary(pl):	Integracja xine DVD z KDE
 Name:		xine-kde
-Version:	1.0
+Version:	2.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 # Source0:	http://kde-apps.org/content/download.php?content=34926&id=1
 Source0:	http://kde-apps.org/content/files/34926-kde_media_video_dvd-%{version}.tar.bz2
-# Source0-md5:	b1ede2013bc0a161d698ed27cf8fbc4c
+# Source0-md5:	a7b634c09f5c4a8d11e3bdc0655795c0
 URL:		http://kde-apps.org/content/show.php?content=34926
+Patch0:		%{name}-desktop.patch
 Requires:	kdebase-desktop
 Requires:	xine-input-dvd
 BuildArch:	noarch
@@ -26,6 +26,7 @@ t³umacz±cy URL media:/ na urz±dzenie przy pomocy dcop.
 
 %prep
 %setup -q -n kde_media_video_dvd-%{version}
+%patch0 -p0
 
 %install
 rm -rf $RPM_BUILD_ROOT

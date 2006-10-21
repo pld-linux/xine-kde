@@ -1,0 +1,16 @@
+--- Play_Video_DVD_in_Xine.desktop.orig	2006-10-21 16:29:16.000000000 +0200
++++ Play_Video_DVD_in_Xine.desktop	2006-10-21 16:35:57.000000000 +0200
+@@ -1,8 +1,13 @@
+ [Desktop Action Play Video DVD in Xine]
++Encoding=UTF-8
+ Exec=xine dvd://`kde_media_url_to_device.sh %u`
+ Icon=video
+ Name=Play Video DVD in Xine
++Comment=Play Video DVD in Xine
++Comment[pl]=Odtwarza płytę DVD w programie Xine
+ 
+ [Desktop Entry]
+ Actions=Play Video DVD in Xine
+ ServiceTypes=media/dvdvideo
++X-KDE-Submenu=Play Video DVD in Xine
++X-KDE-Submenu[pl]=Odtwarzaj płytę DVD w programie Xine
