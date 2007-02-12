@@ -1,5 +1,5 @@
 Summary:	KDE xine DVD integration
-Summary(pl.UTF-8):   Integracja xine DVD z KDE
+Summary(pl.UTF-8):	Integracja xine DVD z KDE
 Name:		xine-kde
 Version:	2.0
 Release:	1
