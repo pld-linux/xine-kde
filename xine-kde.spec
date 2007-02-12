@@ -1,5 +1,5 @@
 Summary:	KDE xine DVD integration
-Summary(pl):	Integracja xine DVD z KDE
+Summary(pl.UTF-8):   Integracja xine DVD z KDE
 Name:		xine-kde
 Version:	2.0
 Release:	1
@@ -20,10 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A little servicetype which lets to video dvds automatically in Xine.
 Includes a script to translate a media:/ URL into a device using dcop.
 
-%description -l pl
-Ma≥y dodatek servicetype, ktÛry pozwala na automatyczne odtwarzanie
-w≥oøonej do czytnika p≥yty DVD w programie Xine. Zawiera skrypt
-t≥umacz±cy URL media:/ na urz±dzenie przy pomocy dcop.
+%description -l pl.UTF-8
+Ma≈Çy dodatek servicetype, kt√≥ry pozwala na automatyczne odtwarzanie
+w≈Ço≈ºonej do czytnika p≈Çyty DVD w programie Xine. Zawiera skrypt
+t≈ÇumaczƒÖcy URL media:/ na urzƒÖdzenie przy pomocy dcop.
 
 %prep
 %setup -q -n kde_media_video_dvd-%{version}
